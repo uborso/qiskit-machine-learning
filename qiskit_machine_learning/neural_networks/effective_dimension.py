@@ -11,6 +11,7 @@
 # that they have been altered from the originals.
 """An implementation of the effective dimension algorithm."""
 
+from tqdm.contrib.telegram import tqdm
 import logging
 import time
 from typing import Union, List, Tuple
